@@ -1,0 +1,41 @@
+# about this theme
+version: 0.1.0
+themeName: Dandelion
+
+# html lang
+language: zh-cmn-Hans
+
+# Put your favicon.ico into `hexo-site/source/` directory.
+favicon: /favicon.ico
+
+# Set default keywords (Use a comma to separate)
+keywords: "阳富城, FuChee, yangfch3, yangfch3 blog, 阳富城的博客, FuChee blog"
+
+# Sidebar Avatar
+# in theme directory(source/images): /images/avatar.jpg
+# in site  directory(source/uploads): /uploads/avatar.jpg
+avatar: /images/avatar.png
+
+# Disqus
+disqus_shortname: yangfch3-blog
+
+# Assets
+css: css
+js: js
+images: images
+
+# main menu navigation
+menu:
+  home: /
+  categories: /categories
+  archives: /archives
+  tags: /tags
+  about: /about
+
+# stylesheets loaded in the <head>
+stylesheets:
+- /css/main.css
+
+# scripts loaded in the end of the body
+scripts:
+- /js/kq.js
