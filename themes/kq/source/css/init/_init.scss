@@ -8,13 +8,12 @@ input[type=submit] { cursor: pointer }
 body { font: 14px/1.5 Helvetica, Arial, sans-serif; -webkit-text-size-adjust: none; -moz-text-size-adjust: none; -ms-text-size-adjust: none; text-size-adjust: none }
 ol, ul, li { list-style: none }
 button { border: none }
-table { border-collapse: collapse; border-spacing: 0 }
 :link, :visited { text-decoration: none }
 pre { font-family: "Lucida Console", Consolas, "Courier New", Tahoma; color: #666; text-indent: 0; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word }
 article, aside, figure, figcaption, footer, header, hgroup, nav, section, summary { display: block }
 figure { margin: 0 }
 a, a:link, a:visited { color: #92b4b1 }
-a:hover { color: #92b4b1; text-shadow: 0px 0px 1px rgba(146,180,177,.7);}
+a:hover { color: #779996;}
 
 body {
   font:14px/1.5 Helvetica, 'Microsoft Yahei', sans-serif;
@@ -35,6 +34,49 @@ body {
       clear:both;
   }
 }
+
+table {
+  border: 1px solid #ddd;
+  border-collapse: separate;
+  border-left: 0;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  width: 100%;
+  margin: 20px 0;
+  max-width: 100%;
+  background-color: transparent;
+  border-collapse: collapse;
+  border-spacing: 0;
+  font-size: 14px;
+}
+
+th {
+  vertical-align: bottom;
+  border-left: 1px solid #ddd;
+  padding-bottom: 10px;
+  font-weight: 700;
+}
+
+th, td {
+  padding: 8px;
+  line-height: 20px;
+  text-align: left;
+  vertical-align: top;
+  border-top: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+}
+
+td {
+  border-bottom-width: 1px;
+}
+
+table>tbody>tr:nth-of-type(odd) {
+  background-color: #f9f9f9;
+  background-color: rgba(102,128,153,.05);
+}
+
+
 /*CSS Reset -E*/
 
 @import 'mediaQuery';

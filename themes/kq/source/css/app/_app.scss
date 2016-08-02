@@ -65,30 +65,30 @@
 .dl_dropmenu {
     background-color: #fff;
     &_content {
-        -webkit-transition: max-height .3s ease-in 0s;        
-        -moz-transition: max-height .3s ease-in 0s;        
-        -ms-transition: max-height .3s ease-in 0s;        
-        -o-transition: max-height .3s ease-in 0s;        
+        -webkit-transition: max-height .3s ease-in 0s;
+        -moz-transition: max-height .3s ease-in 0s;
+        -ms-transition: max-height .3s ease-in 0s;
+        -o-transition: max-height .3s ease-in 0s;
         transition: max-height .3s ease-in 0s;
         max-height: 0;
         overflow: hidden;
         a, li {
             filter:alpha(opacity=0); /* for IE8 and earlier */
             opacity:0; /* for IE9 and other browsers */
-            -webkit-transition: all .3s ease-in 0s;        
-            -moz-transition: all .3s ease-in 0s;        
-            -ms-transition: all .3s ease-in 0s;        
-            -o-transition: all .3s ease-in 0s;        
+            -webkit-transition: all .3s ease-in 0s;
+            -moz-transition: all .3s ease-in 0s;
+            -ms-transition: all .3s ease-in 0s;
+            -o-transition: all .3s ease-in 0s;
             transition: all .3s ease-in 0s;
         }
     }
     &_content_tagsCloud {
         text-align: center;
         padding: 15px 0 30px;
-        -webkit-transition: max-height .3s ease-in 0s;        
-        -moz-transition: max-height .3s ease-in 0s;        
-        -ms-transition: max-height .3s ease-in 0s;        
-        -o-transition: max-height .3s ease-in 0s;        
+        -webkit-transition: max-height .3s ease-in 0s;
+        -moz-transition: max-height .3s ease-in 0s;
+        -ms-transition: max-height .3s ease-in 0s;
+        -o-transition: max-height .3s ease-in 0s;
         transition: max-height .3s ease-in 0s;        a {
             border-bottom: 1px solid #999;
             word-wrap: break-word;
@@ -98,11 +98,11 @@
     }
     &_content_catsCloud {
         text-align: center;
-        -webkit-transition: max-height .3s ease-in 0s;        
-        -moz-transition: max-height .3s ease-in 0s;        
-        -ms-transition: max-height .3s ease-in 0s;        
-        -o-transition: max-height .3s ease-in 0s;        
-        transition: max-height .3s ease-in 0s;        
+        -webkit-transition: max-height .3s ease-in 0s;
+        -moz-transition: max-height .3s ease-in 0s;
+        -ms-transition: max-height .3s ease-in 0s;
+        -o-transition: max-height .3s ease-in 0s;
+        transition: max-height .3s ease-in 0s;
         .category-list-link {
             color: #555;
             text-decoration: none;
@@ -113,11 +113,11 @@
             color: #bbb;
             &:before {
                 display: inline;
-                content: " ("; 
+                content: " (";
             }
             &:after {
                 display: inline;
-                content: ") "; 
+                content: ") ";
             }
         }
         ul, li {
@@ -166,8 +166,8 @@
     &_artList {
         font-size: 0px;
         &_item {
-            width: 360px; 
-            height: 266px; 
+            width: 360px;
+            height: 266px;
             font-size: 14px;
             display: inline-block;
             margin: 0 20px 50px 20px;
@@ -194,7 +194,7 @@
                 a {
                    color: #b8b8b8;
                     border-bottom: 1px solid #999;
-                    word-wrap: break-word;                   
+                    word-wrap: break-word;
                 }
             }
             &_detail {
@@ -320,10 +320,10 @@
                 line-height: 2;
             }
             ol li {
-                list-style: circle;
+                list-style: decimal;
             }
             ul li {
-                list-style: decimal;
+                list-style: circle;
             }
             code {
                 padding: 2px 4px;
