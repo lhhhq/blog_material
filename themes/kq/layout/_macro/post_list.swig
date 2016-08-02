@@ -29,7 +29,7 @@
     </div>
     <div class="dl_cntBox_artList_item_detail">
         {% if post.description %}
-          {{ post.description }}
+            {{ truncate( post.description, {length: 67}) }}
         {% else %}
           糟糕，主人忘记加简介了……
         {% endif %}
