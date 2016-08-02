@@ -1,4 +1,4 @@
-hexo generate
+hexo generate -f
 
 echo ">>>>>>What is your commit message to blog-material repo?"
 read COMMIT
