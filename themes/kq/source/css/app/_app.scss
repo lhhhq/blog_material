@@ -364,10 +364,12 @@
                 &_item {
                     font-size: 16px;
                     width: 50%;
+
                 }
                 &_pre {
                     float: left;
                     text-align: left;
+
                 }
                 &_next {
                     float: right;
@@ -397,3 +399,5 @@
         opacity:1; /* for IE9 and other browsers */
     }
 }
+
+@import 'mediaQuery'

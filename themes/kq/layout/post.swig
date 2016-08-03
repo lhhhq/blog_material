@@ -11,13 +11,13 @@
       </h3>
       <div class="artCnt_cntBox_post_header_meta">
         <span class="artCnt_cntBox_post_header_meta_time">
-            <span>发表于</span>
+            <!-- <span>发表于</span> -->
             <span>{{ date(page.date, config.date_format) }}</span>
         </span>
         <span class="artCnt_cntBox_post_header_meta_time">
               {% if page.categories and page.categories.length %}
                 <span> | </span>
-                <span>分类于 </span>
+                <!-- <span>分类于 </span> -->
                   {% for cat in page.categories %}
                     <span">
                       <a href="{{ url_for(cat.path) }}">
@@ -32,10 +32,10 @@
               {% endif %}
                     {% if page.tags and page.tags.length and not is_index %}
                     <span> | </span>
-                    <span>标签 </span>
+                    <!-- <span>标签 </span> -->
                     <sapn>
                       {% for tag in page.tags %}
-                        <a href="{{ url_for(tag.path) }}">{{ tag.name }}</a>
+                        <a href="{{ url_for(tag.path) }}">#{{ tag.name }}</a>
                       {% endfor %}
                     </span>
                   {% endif %}
@@ -51,7 +51,10 @@
                 <div class="artCnt_cntBox_post_footer_nav_item artCnt_cntBox_post_footer_nav_pre">
                   {% if page.prev %}
                   <a href="{{ url_for(page.prev.path) }}">
-                    <span>&lt;</span> {{ page.prev.title }}
+                    <span>&lt;</span> 
+                    <span class="artCnt_cntBox_post_footer_nav_item_title">
+                      {{ page.prev.title }} 
+                    </span>
                   </a>
                   {% endif %}
                 </div>
@@ -59,7 +62,10 @@
                 <div class="artCnt_cntBox_post_footer_nav_item artCnt_cntBox_post_footer_nav_next">
                     {% if page.next %}
                     <a href="{{ url_for(page.next.path) }}">
-                    {{ page.next.title }} <span>&gt;</span>
+                      <span class="artCnt_cntBox_post_footer_nav_item_title">
+                        {{ page.next.title }} 
+                      </span>
+                      <span>&gt;</span>
                     </a>
                     {% endif %}
                 </div>

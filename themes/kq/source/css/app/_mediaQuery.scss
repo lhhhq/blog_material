@@ -1,0 +1,49 @@
+@media screen and (max-width: 1199px) {
+    .dl_header {
+        padding-top: 0;
+        height: 400px;
+        background-position: center center;
+    }
+    .showTags .dl_dropmenu_content_Tags {
+        max-height: 300px;
+    }
+    .showCats .dl_dropmenu_content_Cats {
+        max-height: 300px;
+    }
+    .dl_cntBox_artList {
+        width: 768px;
+        margin: 0 auto;
+        &_item {
+            width: 344px;
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .dl_cntBox_artList {
+        width: 480px;
+        margin: 0 auto;
+        &_item {
+            width: 440px;
+        }
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .dl_cntBox_artList {
+        width: 320px;
+        margin: 0 auto;
+        &_item {
+            width: 280px;
+        }
+    }
+    .artCnt_cntBox_post_body {
+        font-size: 14px;
+    }
+    .artCnt_cntBox_post_footer_nav_item {
+        font-size: 14px;
+        padding: 0 10px;
+        box-sizing: border-box;
+        white-space: normal;
+    }
+}
