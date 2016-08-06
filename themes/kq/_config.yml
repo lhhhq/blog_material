@@ -12,9 +12,11 @@ favicon: /favicon.ico
 keywords: "阳富城, FuChee, yangfch3, yangfch3 blog, 阳富城的博客, FuChee blog"
 
 # Sidebar Avatar
-# in theme directory(source/images): /images/avatar.jpg
-# in site  directory(source/uploads): /uploads/avatar.jpg
-avatar: /images/avatar.png
+# 360*360 is recommended
+avatar: /avatar.jpg
+
+# banner image
+banner: /banner.jpg
 
 # Disqus
 disqus_shortname: yangfch3-blog

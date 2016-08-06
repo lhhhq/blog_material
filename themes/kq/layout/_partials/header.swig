@@ -1,4 +1,4 @@
-    <div class="dl_header">
+    <div class="dl_header" style="background-image: url({{ theme.banner }})">
         <div class="dl_header_blogInfo">
             <div class="dl_header_blogInfo_avatar">
                 <a href="/"><img src="{{ theme.avatar }}" alt="海荞的头像"></a>
