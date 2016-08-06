@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 为什么ios自带的中文输入法不好用
+title: 为什么iOS自带的中文输入法不好用
 author: lhhhq
 comments: true
 date: 2016-07-09 22:49:52
