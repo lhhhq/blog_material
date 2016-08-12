@@ -5,7 +5,7 @@ h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: normal }
 input, button, textarea, select { *font-size: 100% }
 input { background: transparent; border: none }
 input[type=submit] { cursor: pointer }
-body { font: 14px/1.5 Helvetica, Arial, sans-serif; -webkit-text-size-adjust: none; -moz-text-size-adjust: none; -ms-text-size-adjust: none; text-size-adjust: none }
+body { font-size: 14px; line-height: 1.5; font-family: -apple-system, "Helvetica Neue", Helvetica, "Nimbus Sans L", Arial, "Liberation Sans", "PingFang SC", "Hiragino Sans GB", "Source Han Sans CN", "Source Han Sans SC", "Microsoft YaHei", "Wenquanyi Micro Hei", "WenQuanYi Zen Hei", "ST Heiti", SimHei, "WenQuanYi Zen Hei Sharp", sans-serif; -webkit-text-size-adjust: none; -moz-text-size-adjust: none; -ms-text-size-adjust: none; text-size-adjust: none }
 ol, ul, li { list-style: none }
 button { border: none }
 :link, :visited { text-decoration: none }
