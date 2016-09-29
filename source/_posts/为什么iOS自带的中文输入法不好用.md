@@ -3,7 +3,7 @@ layout: post
 title: 为什么iOS自带的中文输入法不好用
 author: lhhhq
 comments: true
-date: 2016-09-15 09:08:03
+date: 2016-07-09 22:49:52
 description: 我就是想说说为啥我觉得苹果自带的中文输入法不好用而已。
 tags: 
 - UI
