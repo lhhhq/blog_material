@@ -1,0 +1,48 @@
+{
+  "name": "no-name",
+  "version": "0.0.1",
+  "description": "no description",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint src/*.js --fix",
+    "clean": "rm -rf ../themes/kq/source/js/",
+    "minifyjs": "uglifyjs ../themes/kq/source/js/kq.js -o ../themes/kq/source/js/kq.min.js  --compress --mangle --comments '/Copyright/'",
+    "minifycss": "cleancss -o ../themes/kq/source/css/main.min.css ../themes/kq/source/css/main.css",
+    "minifyimg": "imagemin assets/img/ --out-dir=../themes/kq/source/img/",
+    "prebuild": "npm run lint && npm run minifyimg",
+    "build": "rollup -c && compass compile --output-style compressed",
+    "postbuild": "npm run minifyjs && npm run minifycss",
+    "watch:css": "watch 'compass compile --output-style compressed && npm run minifycss' './src/scss/'",
+    "watch:js": "watch 'rollup -c' './src/js/'",
+    "watch": "watch 'npm run build' './src/' './assets/img/'"
+  },
+  "author": "yangfch3",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.14.0",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-es2015-rollup": "^1.2.0",
+    "clean-css": "^3.4.20",
+    "eslint": "^3.6.0",
+    "eslint-config-standard": "^6.2.0",
+    "eslint-plugin-import": "^1.16.0",
+    "eslint-plugin-promise": "^3.3.0",
+    "eslint-plugin-standard": "^2.0.1",
+    "imagemin-cli": "^3.0.0",
+    "jquery": "^3.1.1",
+    "rollup": "^0.36.0",
+    "rollup-plugin-babel": "^2.6.1",
+    "rollup-plugin-commonjs": "^5.0.5",
+    "rollup-plugin-node-resolve": "^2.0.0",
+    "rollup-plugin-replace": "^1.1.1",
+    "rollup-watch": "^2.5.0",
+    "uglify-js": "^2.7.3",
+    "watch": "^1.0.1"
+  },
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "rollup-plugin-commonjs": "^5.0.5",
+    "rollup-plugin-node-resolve": "^2.0.0"
+  }
+}

@@ -19,7 +19,7 @@
                 <span> | </span>
                 <!-- <span>分类于 </span> -->
                   {% for cat in page.categories %}
-                    <span">
+                    <span>
                       <a href="{{ url_for(cat.path) }}">
                         {{ cat.name }}
                       </a>

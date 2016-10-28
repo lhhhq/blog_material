@@ -3,16 +3,16 @@
 <head>
   {% include '_partials/head.swig' %}
   <title>{% block title %}{% endblock %}</title>
+  <script src="{{ url_for(theme.scripts.lib) }}jquery/jquery.js"></script>
 </head>
 
 <body>
   <header>
     {%- include '_partials/header.swig' %}
-  </header>
-
-  <div class="dl_dropmenu js_navDropmenuBox">
+    <div class="dl_dropmenu js_navDropmenuBox">
       {%- include '_partials/nav.swig' %}
-  </div>
+    </div>
+  </header>
 
   <div class="dl_cntBox">
       {% block content %}{% endblock %}
@@ -20,6 +20,10 @@
 
 
   {%- include '_partials/footer.swig' %}
-  {%- include '_scripts/main.swig' %}
+  <script src="{{ url_for(theme.scripts.main) }}"></script>
+  {% if is_post() %}
+
+  {% endif %}
+
 </body>
 </html>

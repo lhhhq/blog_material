@@ -1,5 +1,5 @@
 # about this theme
-version: 0.1.0
+version: 0.0.1
 themeName: Dandelion
 
 # html lang
@@ -9,14 +9,14 @@ language: zh-cmn-Hans
 favicon: /favicon.ico
 
 # Set default keywords (Use a comma to separate)
-keywords: "阳富城, FuChee, yangfch3, yangfch3 blog, 阳富城的博客, FuChee blog"
+keywords: "Dandelion Hexo Hexo-themes"
 
 # Sidebar Avatar
 # 360*360 is recommended
-avatar: /avatar.jpg
+avatar: /img/avatar.jpg
 
 # banner image
-banner: /banner.jpg
+banner: /img/banner.jpg
 
 # Disqus
 disqus_shortname: yangfch3-blog
@@ -24,7 +24,7 @@ disqus_shortname: yangfch3-blog
 # Assets
 css: css
 js: js
-images: images
+images: img
 
 # main menu navigation
 menu:
@@ -35,9 +35,10 @@ menu:
   about: /about
 
 # stylesheets loaded in the <head>
-stylesheets:
-- /css/main.css
+stylesheets: 
+  main: /css/main.css
 
 # scripts loaded in the end of the body
-scripts:
-- /js/kq.js
+scripts: 
+  main: /js/kq.js
+  lib: /js/lib/

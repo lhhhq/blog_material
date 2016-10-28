@@ -1,0 +1,60 @@
+.dl_dropmenu {
+    position: relative;
+    &_content {
+        background-color: #fff;
+        width: 100%;
+        box-shadow: 0 2px 7px 0 #ccc;
+        bottom: 0;
+        z-index: 10;
+        position: absolute;
+    }
+    &_content_tagsCloud {
+        text-align: center;
+        padding: 15px 0 30px;
+        a {
+            border-bottom: 1px solid #b8b8b8;
+            word-wrap: break-word;
+            display: inline-block;
+            margin: 10px;
+        }
+        div {
+            max-width: 1200px;
+            display: inline-block;
+            text-align: center;
+        }
+    }
+    &_content_catsCloud {
+        text-align: center;
+        padding: 20px 0;
+        div {
+            max-width: 1200px;
+            display: inline-block;
+            text-align: center;
+        }
+        .category-list-link {
+            color: #b8b8b8;
+            text-decoration: none;
+            border-bottom: 1px solid #b8b8b8;
+            word-wrap: break-word;
+        }
+        .category-list-count {
+            color: #bbb;
+            &:before {
+                display: inline;
+                content: " (";
+            }
+            &:after {
+                display: inline;
+                content: ") ";
+            }
+        }
+        ul, li {
+            display: inline-block;
+            text-align: center;
+        }
+        li {
+            margin: 10px;
+        }
+    }
+
+}

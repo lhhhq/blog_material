@@ -5,3 +5,5 @@ db.json
 node_modules/
 public/
 .deploy*/
+theme_source/.sass-cache
+theme_source/node_modules/
