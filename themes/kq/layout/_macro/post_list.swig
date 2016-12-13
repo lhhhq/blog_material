@@ -38,6 +38,7 @@
         <a href="{{ url_for(post.path) }}" title="{{ post.title }}">
             阅读全文
         </a>
+        <div class="dl_cntBox_artList_item_readBtn_hover"></div>
     </div>
   </div>
 {% endmacro %}

@@ -15,7 +15,13 @@ a, a:link, a:visited { color: #92b4b1;}
 a:hover { color: #779996;}
 
 body {
-    font-size: 14px; line-height: 1.5; font-family: 'PingFang SC', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif; -webkit-text-size-adjust: none; -moz-text-size-adjust: none; -ms-text-size-adjust: none; text-size-adjust: none;
+    font-size: 14px;
+    line-height: 1.5;
+    font-family: 'PingFang SC', 'Helvetica Neue', 'Helvetica', 'Arial', 'Hiragino Sans GB', 'STHeiti', 'Microsoft YaHei', sans-serif;
+    -webkit-text-size-adjust: none;
+    -moz-text-size-adjust: none;
+    -ms-text-size-adjust: none;
+    text-size-adjust: none;
     color: #000;
     font-weight: 300;
     background: #f9f9f9;

@@ -46,6 +46,7 @@
                 height: 40px;
                 border-radius: 4px;
                 border: 1px solid #b0c1c5;
+                position: relative;
                 a {
                     font-size: 16px;
                     display: block;
@@ -54,7 +55,36 @@
                     text-align: center;
                     line-height: 40px;
                     color: #7b989e;
+                    // background-color: #fff;
+                    border-radius: 2px;
+                    -webkit-transition: all .3s ease-in 0s;
+                    -moz-transition: all .3s ease-in 0s;
+                    -ms-transition: all .3s ease-in 0s;
+                    -o-transition: all .3s ease-in 0s;
+                    transition: all .3s ease-in 0s;
                 }
+                a:hover {
+                    // background-color: #7b989e;
+                    color: #fff;
+                }
+                &_hover {
+                    position: absolute;
+                    height: 100%;
+                    width: 0;
+                    top: 0;
+                    z-index: -1;
+                    opacity: 0;
+                    -webkit-transition: all .3s ease-in 0s;
+                    -moz-transition: all .3s ease-in 0s;
+                    -ms-transition: all .3s ease-in 0s;
+                    -o-transition: all .3s ease-in 0s;
+                    transition: all .3s ease-in 0s;
+                }
+            }
+            &_readBtn:hover &_readBtn_hover {
+                width: 100%;
+                opacity: 1;
+                background-color: #92b4b1;
             }
         }
     }
