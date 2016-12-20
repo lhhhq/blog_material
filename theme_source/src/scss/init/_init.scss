@@ -27,6 +27,11 @@ body {
     background: #f9f9f9;
 }
 
+::selection {
+  color: #fff;
+  background: #92b4b1;
+}
+
 .container{
     max-width: 1200px;
     margin: 0 auto;
