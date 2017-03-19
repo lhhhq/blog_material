@@ -13,7 +13,7 @@ categories:
 
 一、需求分析
 
-![img](http://ce.sysu.edu.cn/hope/CMSEditor/UEditor/dialogs/attachment/fileTypeImages/icon_pdf.gif)[跑步APP需求分析报告.pdf](http://ce.sysu.edu.cn/hope/UploadFiles/File/201611/63615275299589553236848.pdf)
+[跑步APP需求分析报告.pdf](http://ce.sysu.edu.cn/hope/UploadFiles/File/201611/63615275299589553236848.pdf)
 
 
 二、交互文档
@@ -22,7 +22,9 @@ categories:
 
 三、可用性测试
 
-![img](http://ce.sysu.edu.cn/hope/CMSEditor/UEditor/dialogs/attachment/fileTypeImages/icon_pdf.gif)[跑步APP iOS版可用性测试报告.pdf](http://ce.sysu.edu.cn/hope/UploadFiles/File/201611/63615275379461693550771.pdf)
+[跑步APP iOS版可用性测试报告.pdf](http://ce.sysu.edu.cn/hope/UploadFiles/File/201611/63615275379461693550771.pdf)
+
+
 一个从头到尾自行策划产品的小尝试，非常的不成熟，待解决的问题还有很多，算是为接下来的毕业论文打一个小基础吧……毕竟钢铁不是一两天炼成的。
 
 
