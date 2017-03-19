@@ -8,7 +8,7 @@ description: github是一款主流的git仓库在线托管服务提供商，本�
 tags:
 - github
 categories:
-- 工具
+- 教程指引
 ---
 
 git是一款用于版本管理的工具，作为一名设计师，如果会一点点html和css，还学会使用git，那么将给程序员减轻不少负担。github是一款主流的git仓库（待会解释仓库）在线托管服务提供商，以下介绍github的一些基本用法。

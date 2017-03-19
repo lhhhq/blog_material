@@ -6,9 +6,9 @@ comments: true
 date: 2015-08-22 15:02:06
 description: 了解Excel的一些使用常识，学学用ppt做吊炸天的图表！
 tags:
-- 图表
+- office
 categories:
-- 工具
+- 学习笔记
 ---
 
 **一、Excel**

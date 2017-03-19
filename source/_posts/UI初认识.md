@@ -7,9 +7,8 @@ date: 2016-04-03 9:15:44
 description: 认识UI、UX的基本概念及其区别和联系。
 tags:
 - UI
-- UX
 categories:
-- 设计常识
+- 学习笔记
 ---
 
 **UI是什么？**
