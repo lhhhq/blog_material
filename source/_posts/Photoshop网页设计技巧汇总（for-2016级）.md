@@ -4,34 +4,14 @@ title: Photoshop网页设计技巧汇总（for 2016级）
 author: lhhhq
 comments: true
 date: 2016-12-09 16:28:02
-description:
+description: 这是针对2016级化学多媒体课程期末网页设计作业写，内容上主要是photoshop中基本工具使用方法，以及一些设计规范。
 tags:
 - 网页设计
 categories:
 - 教程指引
 ---
 
-[Q1 如何选择配色？](http://ce.sysu.edu.cn/hope/Item/167825.aspx#Q1 如何选择配色？)
-
-[Q2 怎样设置文字样式？](http://ce.sysu.edu.cn/hope/Item/167825.aspx#Q2 怎样设置文字样式？)
-
-[Q3 如何绘制一个圆角矩形？](http://ce.sysu.edu.cn/hope/Item/167825.aspx#Q3 如何绘制一个圆角矩形？)
-
-[Q4 如何绘制一条虚线？](http://ce.sysu.edu.cn/hope/Item/167825.aspx#Q4 如何绘制一条虚线？)
-
-[Q5 如何抠图？](http://ce.sysu.edu.cn/hope/Item/167825.aspx#Q5 如何抠图？)
-
-[Q6 如何绘制如雕刻一般的分割线？](http://ce.sysu.edu.cn/hope/Item/167825.aspx#Q6 如何绘制如雕刻一般的分割线？)
-
-[Q7 如何绘制出有质感的导航背景？](http://ce.sysu.edu.cn/hope/Item/167825.aspx#Q7 如何绘制出有质感的导航背景？)
-
-[Q8 如何添加背景纹理？](http://ce.sysu.edu.cn/hope/Item/167825.aspx#Q8 如何添加背景纹理？)
-
-[Q9 为什么要切片？](http://ce.sysu.edu.cn/hope/Item/167825.aspx#Q9 为什么要切片？)
-
-篇幅有点长，各位同学按需查看，点击可跳到该问题。
-
-tip：本文末有惊喜。
+这是针对2016级化学多媒体课程期末网页设计作业写，内容上主要是photoshop中基本工具使用方法，以及一些设计规范。原文地址：[http://ce.sysu.edu.cn/hope/Item/167825.aspx](http://ce.sysu.edu.cn/hope/Item/167825.aspx)
 
 
 
